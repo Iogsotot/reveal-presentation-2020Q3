@@ -56,3 +56,11 @@ After finding a specific change, the framework accesses the DOM and makes point 
 ***Summary***
 The virtual DOM (VDOM) is a programming concept where an ideal, or “virtual”, representation of an UI is kept in memory and synced with the “real” DOM by a library for example ReactDOM. This process is called reconciliation.
 
+### Sources
+ - https://reactjs.org/docs/faq-internals.html#what-is-the-virtual-dom
+ - https://habr.com/ru/post/256965/
+ - https://ichi.pro/ru/podozdite-react-eto-ne-virtual-naa-model-dom-198566713080451
+ - https://www.freecodecamp.org/news/a-quick-guide-to-learn-react-and-how-its-virtual-dom-works-c869d788cd44/
+ - https://vuejsfeed.com/blog/learn-the-differences-between-shadow-dom-and-virtual-dom
+ - and other
+
