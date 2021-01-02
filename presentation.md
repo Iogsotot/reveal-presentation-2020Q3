@@ -23,7 +23,7 @@ For example, the page can blink.
 
 Of course, it was nEcessary to find a way to avoid such an expensive and in-elegant behavior when changing data on a page.
 #### Slides 3.2 - 3.3
-The solution to exactly this problem was proposed by React - this solution was the virtual(вирчуал) DOM, which allows you to implement control over DOM elements.
+The solution to exactly this problem was proposed by React - this solution was the virtual DOM, which allows you to implement control over DOM elements.
 Now virtual Dom is used not only in React, but also in Vue.js.
 #### Slide 4
 Before we move on to a more detailed study of virtual Dom, it is necessary to say a few words about Shadow DOM, because sometimes these concepts get confused in people's heads. 
@@ -54,5 +54,5 @@ Before sending the changes of vdom for redrawing in the DOM, the framework perfo
 After finding a specific change, the framework accesses the DOM and makes point changes. Which, of course, wastes several times less resources than a complete redrawing of the DOM. This is a very quick and economical procedure. If no changes have occurred, then there is no need to redraw the DOM.
 #### Slide 7
 ***Summary***
-The virtual DOM (VDOM) is a programming concept where an ideal, or “virtual”, representation of an UI is kept in memory and synced(синкд) with the “real” DOM by a library for example ReactDOM. This process is called reconciliation.
+The virtual DOM (VDOM) is a programming concept where an ideal, or “virtual”, representation of an UI is kept in memory and synced with the “real” DOM by a library for example ReactDOM. This process is called reconciliation.
 
