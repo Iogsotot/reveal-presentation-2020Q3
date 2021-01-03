@@ -64,5 +64,3 @@ The virtual DOM (VDOM) is a programming concept where an ideal, or “virtual”
  - https://www.freecodecamp.org/news/a-quick-guide-to-learn-react-and-how-its-virtual-dom-works-c869d788cd44/
  - https://vuejsfeed.com/blog/learn-the-differences-between-shadow-dom-and-virtual-dom
  - and other
-
-
