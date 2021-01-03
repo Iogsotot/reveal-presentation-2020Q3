@@ -1,0 +1,195 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>reveal.js</title>
+
+  <link rel="stylesheet" href="dist/reset.css">
+  <link rel="stylesheet" href="dist/reveal.css">
+  <link rel="stylesheet" href="dist/theme/night.css" id="theme">
+
+  <!-- Theme used for syntax highlighted code -->
+  <link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section>
+        <h2>Virtual DOM</h2>
+        <h3>created by Anna Justus</h3>
+        <h2>2020Q3</h2>
+      </section>
+
+      <section data-transition="zoom-in fade-out">What is DOM?
+        <section data-transition="convex" data-auto-animate data-auto-animate-unmatched="fade">
+          <img src="assets/what.jpg" alt="?" width="500">
+        </section>
+        <section data-transition="convex" data-auto-animate data-auto-animate-unmatched="fade">
+          <p style="margin-top: 100px;">Simple definition</p>
+        </section>
+        <section data-transition="convex" data-auto-animate data-auto-animate-unmatched="fade">
+          <p style="opacity: 0.8; margin-top: 0px; color: #e7ad52;">Simple definition</p>
+          <p>DOM – stands for Document Object Model.</p>
+        </section>
+        <section data-transition="convex" data-auto-animate data-auto-animate-unmatched="fade">
+          <p style="opacity: 0.8; margin-top: 0px; color: #e7ad52;">Simple definition</p>
+          <p>DOM – stands for Document Object Model.</p>
+          <p style="margin-top: 150px;">Hard definition</p>
+        </section>
+        <section data-transition="convex" data-auto-animate data-auto-animate-unmatched="fade">
+          <p style="opacity: 0.8; margin-top: 0px; color: #e7ad52;">Simple definition</p>
+          <p>DOM – stands for Document Object Model.</p>
+          <p style="opacity: 0.8; margin-top: 100px; color: #e7ad52;">Hard definition</p>
+          <p> It is cross-platform and language-independent convention for representing and interacting with data in
+            HTML, XML, and others.</p>
+        </section>
+      </section>
+
+      <section data-transition="zoom-in fade-out" data-auto-animate>DOM
+        <section data-transition="convex" data-auto-animate data-auto-animate-unmatched="fade"
+          style="display: flex; justify-content: space-around; flex-direction: row; flex-wrap: nowrap;">
+          <div class="r-hstack">
+            <div data-id="1" style="width: 25vw;"><img src="assets/html.png" alt=""></div>
+            <div data-id="2" style="width: 25vw;"></div>
+            <div data-id="3" style="width: 25vw;"></div>
+          </div>
+        </section>
+        <section data-transition="concave" data-auto-animate data-auto-animate-unmatched="fade">
+          <div class="r-hstack">
+            <div data-id="1" style="width: 25vw;"><img src="assets/html.png" alt=""></div>
+            <div data-id="2" style="width: 25vw;"><img src="assets/arrow_right.png" alt=""></div>
+            <div data-id="3" style="width: 25vw;"></div>
+          </div>
+        </section>
+        <section data-transition="concave" data-auto-animate data-auto-animate-unmatched="fade">
+          <div class="r-hstack">
+            <div data-id="1" style="width: 25vw;"><img src="assets/html.png" alt=""></div>
+            <div data-id="2" style="width: 25vw;"><img src="assets/arrow_right.png" alt=""></div>
+            <div data-id="3" style="width: 25vw;"><img src="assets/house.png" alt=""></div>
+          </div>
+        </section>
+
+        <section data-transition="concave" data-auto-animate data-auto-animate-unmatched="fade">
+          <div class="r-hstack">
+            <div data-id="1" style="width: 25vw;"><img src="assets/tree.png" alt=""></div>
+            <div data-id="2" style="width: 25vw;"><img src="assets/arrow_right.png" alt=""></div>
+            <div data-id="3" style="width: 25vw;"><img src="assets/page.png" alt=""></div>
+          </div>
+        </section>
+      </section>
+
+      <section data-transition="zoom-in fade-out"> history
+        <section data-transition="convex">
+          <h4 style="margin-top: 100px; color:  #e7ad52;">Static app</h4>
+          <img src="assets/ancient_developer.png" alt="">
+        </section>
+        <section data-transition="convex">
+          <h4 style="margin-top: 100px; color:  #e7ad52;">Alive app</h4>
+          <img src="assets/laptop.gif" alt="">
+        </section>
+        <section data-transition="convex" data-auto-animate data-auto-animate-unmatched="fade">
+          <h4 style="margin-top: 100px; color: #00e0ff">Hero</h4>
+          <div class="r-hstack">
+            <div data-id="1"><img src="assets/react.png" height="400"></div>
+          </div>
+        </section>
+        <section data-transition="convex" data-auto-animate data-auto-animate-unmatched="fade">
+          <div class="r-hstack">
+            <div data-id="1" style="margin-right: 100px;"><img src="assets/react.png" height="400"></div>
+            <div data-id="2"><img src="assets/vue.png" height="250"></div>
+          </div>
+        </section>
+      </section>
+
+      <section data-transition="zoom-in fade-out">Shadow DOM
+        <section data-transition="convex" data-auto-animate data-auto-animate-unmatched="fade">
+          <img data-id="1" src="assets/shadow_dom.jpeg" alt="?" width="500">
+        </section>
+        <section data-transition="convex" data-auto-animate data-auto-animate-unmatched="fade">
+          <img data-id="1" src="assets/shadow_dom_code.jpeg" alt="?" width="500">
+          <p>is used for encapsulation. Thanks to it, the component has its own "shadow" DOM tree,
+            which cannot be simply accessed from the main document, it can have isolated CSS rules, etc.</p>
+        </section>
+        <section data-transition="convex" data-auto-animate data-auto-animate-unmatched="fade">
+          <img src="assets/shadow_tree.svg" style="margin-top: 100px; max-width: 450px;" alt="?">
+        </section>
+        <section data-transition="convex" data-auto-animate data-auto-animate-unmatched="fade">
+          <p style="margin-top: 100px; color:  #e7ad52;">How shadow DOM helps to us?</p>
+        </section>
+        <section data-transition="convex" data-auto-animate data-auto-animate-unmatched="fade">
+          <p data-id="1" style="margin-top: 100px;">1) isolates the DOM </p>
+          <p data-id="2" style="margin-top: 150px; color: transparent;">2) scoping of the CSS</p>
+        </section>
+        <section data-transition="convex" data-auto-animate data-auto-animate-unmatched="fade">
+          <p data-id="1" style="margin-top: 80px;">1) isolates the DOM </p>
+          <p data-id="2" style="margin-top: 80px; color: #eee;">2) scoping of the CSS </p>
+          <p data-id="2" style="margin-top: 100px; color: transparent;">3) can affect the performance of the application
+          </p>
+        </section>
+        <section data-transition="convex" data-auto-animate data-auto-animate-unmatched="fade">
+          <p data-id="1" style="margin-top: 0px;">1) isolates the DOM </p>
+          <p data-id="2" style="margin-top: 50px; color: #eee;">2) scoping of the CSS </p>
+          <p data-id="2" style="margin-top: 50px; color: #eee;">3) can affect the performance of the application</p>
+        </section>
+      </section>
+
+      <section data-transition="zoom-in fade-out">
+        Differences between Shadow DOM and Virtual DOM
+        <section data-transition="convex" data-auto-animate data-auto-animate-unmatched="fade">
+          <div class="r-hstack">
+            <div data-id="1" style="position: absolute; left: 0; top: 100px;"><img src="assets/ghost_tree.png"
+                height="400"></div>
+          </div>
+        </section>
+        <section data-transition="convex" data-auto-animate data-auto-animate-unmatched="fade">
+          <div class="r-hstack">
+            <div data-id="1" style="position: absolute; left: 0; top: 100px;"><img src="assets/ghost_tree.png"
+                height="400"></div>
+            <div data-id="2" style="margin: 25vh auto;">vs</div>
+            <div data-id="3" style="position: absolute; right: 0; top: 100px;"><img src="assets/virtual_tree.png"
+                height="400"></div>
+          </div>
+        </section>
+      </section>
+
+      <section data-transition="zoom-in fade-out">
+        How virtual DOM works?
+        <section data-transition="convex" data-auto-animate data-auto-animate-unmatched="fade">
+        </section>
+        <section data-transition="convex" data-auto-animate data-auto-animate-unmatched="fade">
+          <img src="assets/virtual_dom.png" alt="">
+        </section>
+        <section data-transition="convex" data-auto-animate data-auto-animate-unmatched="fade">
+          <img src="assets/virtual_dom_diff.png" alt="">
+        </section>
+      </section>
+
+      <section data-transition="zoom-in fade-out">
+        <h3>Summary</h3>
+        <img src="assets/virtual_dom_summary.png" alt="">
+      </section>
+    </div>
+  </div>
+
+  <script src="dist/reveal.js"></script>
+  <script src="plugin/notes/notes.js"></script>
+  <script src="plugin/markdown/markdown.js"></script>
+  <script src="plugin/highlight/highlight.js"></script>
+  <script>
+    // More info about initialization & config:
+    // - https://revealjs.com/initialization/
+    // - https://revealjs.com/config/
+    Reveal.initialize({
+      hash: true,
+
+      // Learn about plugins: https://revealjs.com/plugins/
+      plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+    });
+  </script>
+</body>
+
+</html>
