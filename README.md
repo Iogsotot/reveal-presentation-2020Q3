@@ -22,7 +22,7 @@ But with the development of technologies and user needs, it became necessary to 
 In order to draw a change in the DOM, the browser redraws all the objects on the page in general, this is such a time-consuming operation that it can be visible to the eye.
 For example, the page can blink.
 
-Of course, it was nEcessary to find a way to avoid such an expensive and in-elegant behavior when changing data on a page.
+Of course, it was necessary to find a way to avoid such an expensive and inelegant behavior when changing data on a page.
 #### Slides 3.2 - 3.3
 The solution to exactly this problem was proposed by React - this solution was the virtual DOM, which allows you to implement control over DOM elements.
 Now virtual Dom is used not only in React, but also in Vue.js.
