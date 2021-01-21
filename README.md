@@ -4,6 +4,8 @@
 ### Task description: https://github.com/rolling-scopes-school/tasks/blob/master/tasks/presentation.md
 ### Video: https://youtu.be/WHChNmbu9hk
 ### Slides: https://iogsotot-virtual-dom.netlify.app/
+<hr></hr>
+
 
 ### Text:
 #### Slide 0
